@@ -1,0 +1,14 @@
+.nav-item{
+
+  .nav-link{
+    color: $main_color !important;
+    @extend .fs__17;
+    @extend .fw__400;
+      cursor: pointer;
+
+  }
+
+  .act__nav{
+    color: $paragraph_color !important;
+  }
+}

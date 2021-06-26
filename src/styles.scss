@@ -1,1 +1,139 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./styles/index.scss";
+
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+
+.px__lg-4{
+padding:0px 16px ;
+}
+.px__lg-5{
+  padding:0px 20px ;
+
+}
+.mx__lg-2{
+  margin:0px 8px ;
+
+}
+@media (min-width: 1px) and (max-width: 767px){
+
+.px__lg-4{
+  padding:0px 1px ;
+  }
+  .px__lg-5{
+    padding:0px 5px ;
+
+  }
+  .mx__lg-2{
+    margin:0px 4px ;
+
+  }
+  .list__nav--setting{
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+  }
+  .my__sm-4{
+    margin: 10px 0px;
+  }
+}
+.list__nav--setting{
+  i{
+    color: #191919;
+  }
+  li:nth-child(2){
+    border-left: 2px solid rgba($color: #979797, $alpha: 0.1);
+    border-right: 2px solid rgba($color: #979797, $alpha: 0.1);
+    padding: 0px 10px;
+
+  }
+  li:nth-child(1){
+    i{
+      color: $main_color !important;
+    }
+
+  }
+}
+
+button,input,textarea{
+  outline: none !important;
+}
+.carousel-indicators button{
+  background-color: #d8d8d8 !important;
+  padding: 0.5px 2px !important;
+
+}
+.carousel-indicators button.active{
+  background-color: $main_color !important;
+}
+.carousel-item{
+button {
+  background-color: $main_color ;
+
+
+}
+}
+
+.color__white{
+  color: #fff !important;
+}
+.shadow__ele{
+  box-shadow: 0px 2px 14px rgba($color: #000000, $alpha: 0.06);
+}
+#initiatives{
+  a{
+    color: $main_color !important;
+    i{
+      color: $paragraph_color;
+    }
+  }
+}
+#opportunities{
+  button{
+    background-color: $main_color;
+  }
+}
+a{
+  text-decoration: none !important;
+}
+
+.img__pos{
+  width: 15px !important;
+  height: 15px !important;
+}
+.loc__icon{
+ i{
+  color: $main_color !important;
+ }
+}
+.ml-10{
+  margin-left: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 33px;
+  height: 4px;
+  margin: 2px 4px;
+  background: #D6D6D6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background: $main_color;
+
+}
+.title__s{
+font-size: 25px;
+}
+#contact{
+  background-color: $contact_section;
+}
+footer{
+  background-color: $main_color;
+  color: #fff;
+  vertical-align: middle;
+}

@@ -1,0 +1,33 @@
+.carousel-item {
+    height: calc(100vh - 48px) !important;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    .carousel-caption {
+        color: #fff !important;
+    }
+    button {
+        color: #fff;
+        border: none;
+        padding: 10px 18px;
+    }
+}
+.carousel-indicators {
+    bottom: 186px !important;
+}
+@media(min-width: 769px) and(max-width: 1024px) {
+    .carousel-item {
+        height: calc(50vh - 48px) !important;
+    }
+}
+
+@media(min-width: 767px) and(max-width: 768px) {
+    .carousel-item {
+        height: calc(65vh - 48px) !important;
+    }
+}
+@media(min-width: 10px) and(max-width: 767px) {
+    .carousel-item {
+        height: calc(95vh - 48px) !important;
+    }
+}

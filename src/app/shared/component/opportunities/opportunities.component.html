@@ -1,0 +1,63 @@
+<section id="opportunities" class="my-5">
+  <div class="container-fluid py-5">
+    <div class="row py-3 position-relative">
+      <div class="col-md-3 d-flex justify-content-center">
+        <div>
+          <h6 class="fw__600 fs__23">فرص</h6>
+          <p class="py-3">
+            ما هو “لوريم إيبسوم” ؟
+          </p>
+          <button class="fw__50 fs__18 br__radius__4">
+            جميع الفرص
+          </button>
+        </div>
+      </div>
+      <div class="col-md-9 cars__pos">
+        <ngx-slick-carousel
+          class="carousel"
+          #slickModal="slick-carousel"
+          [config]="slideConfig">
+          <div
+            ngxSlickItem
+            *ngFor="let slide of [1, 2, 3, 4, 5]"
+            class="slide
+            position-relative">
+            <div
+              class="shadow__ele bg-white mx-2 mb-3
+              br__radius__10">
+              <img
+                src="assets/images/s_2.png"
+                width="100%"
+                class="obj"
+                height="200"
+                alt=""
+                />
+              <div class="py-3 px-3">
+                <div>
+                  عشان أحب الشرقية
+                </div>
+                <p>
+                  يا شباب الشرقية جهزوا نفسكم وحضروا إبداعاتكم سنتواجد في
+                  الكورنيش، وننفذ مشروعنا الأول الفني لتجميل الشرقية
+                </p>
+                <div class="loc__icon">
+                  <div>
+                    <i class="fas fa-map-marker pl-2"></i>
+                    الدمام
+                  </div>
+                  <div class="mt-2">
+                    <span> <i class="fas fa-umbrella-beach ml-10
+                        d-inline-block"></i>مجال بيئي </span>
+                    <span class="d-inline-block mr-2"> <i class="fas fa-circle
+                        px-2"></i>١٢ يناير ٢٠٢١ </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ngx-slick-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="m__fix"></div>

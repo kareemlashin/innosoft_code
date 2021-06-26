@@ -1,0 +1,13 @@
+.img__data {
+  background-color: #fff;
+  max-width: 80px;
+  max-height: 80px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  margin: auto;
+}

@@ -1,0 +1,50 @@
+button {
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+}
+
+#opportunities {
+  width: 100%;
+  background-color: #2e2e2e !important;
+  color: #fff;
+}
+
+.shadow__ele * {
+  color: #000;
+}
+
+.cars__pos {
+  position: absolute;
+  top: 10px;
+  right: 30%;
+}
+
+.m__fix {
+  margin-bottom: 226px;
+}
+
+@media (max-width: 767px) and (min-width: 10px) {
+  .cars__pos {
+    padding-top: 35px;
+    position: relative !important;
+    top: 0;
+    right: 0;
+  }
+  .m__fix {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  span {
+    font-size: 12px;
+  }
+  .m__fix {
+    margin-bottom: 250px;
+  }
+}
+
+.obj {
+  object-fit: fill;
+}

@@ -1,0 +1,26 @@
+<section id="contact" class="py-5 mt-5">
+  <h6 class="text-center title__s">تواصل معنا</h6>
+  <form (ngSubmit)="onSubmit()" [formGroup]="form">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-2">
+          <input type="text" formControlName="name" class="w-100 py-2
+            shadow__ele" placeholder="الاسم">
+        </div>
+
+        <div class="col-md-6 my-2">
+          <input type="email" class="w-100 py-2 shadow__ele"
+            formControlName="email" placeholder="البريد الالكتروني">
+        </div>
+        <div class="col-md-12 my-2">
+          <textarea rows="5" class="w-100 shadow__ele" formControlName="message"
+            placeholder="رسالتك" cols=""></textarea>
+        </div>
+
+        <div class="col-md-12 my-2">
+          <button class="fw__50 fs__18 px-4 py-2"> ارسال </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>

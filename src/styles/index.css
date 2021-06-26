@@ -1,0 +1,19 @@
+body {
+  background-color: red;
+}
+
+* {
+  color: #09c;
+}
+
+.layout {
+  color: green;
+}
+
+.layout {
+  color: green;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}

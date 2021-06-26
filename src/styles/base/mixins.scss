@@ -1,0 +1,22 @@
+@for $size from 12 through 25 {
+  .fs__#{$size}{
+    font-size: $size+px !important;
+  }
+}
+$weights:700,600,500,400,800,900;
+@each $weight in $weights {
+.fw__#{$weight}{
+  font-weight: $weight;
+}
+}
+
+$radiuses:4,10,15,5,20,25;
+@each $radius in $radiuses {
+.br__radius__#{$radius}{
+  border-radius:$radius+px ;
+  -webkit-border-radius:$radius+px ;
+  -moz-border-radius:$radius+px ;
+  -ms-border-radius:$radius+px ;
+  -o-border-radius:$radius+px ;
+}
+}

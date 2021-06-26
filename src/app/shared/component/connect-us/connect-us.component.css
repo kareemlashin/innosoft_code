@@ -1,0 +1,12 @@
+input,
+textarea {
+  border: none;
+  resize: none;
+  padding-right: 10px;
+}
+
+button {
+  border: none;
+  background-color: #009ee2;
+  color: #fff;
+}
